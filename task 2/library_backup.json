@@ -1,0 +1,79 @@
+{
+  "exported_at": "2026-07-26T18:29:44.959408",
+  "users": [
+    {
+      "id": 1,
+      "username": "john_dev",
+      "full_name": "John Dev",
+      "role": "MEMBER"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "isbn": "978-0132350884",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Technology",
+      "total_copies": 2,
+      "available_copies": 2
+    },
+    {
+      "id": 2,
+      "isbn": "978-0451524935",
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Fiction",
+      "total_copies": 1,
+      "available_copies": 1
+    }
+  ],
+  "borrow_records": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "book_id": 1,
+      "issue_date": "2026-07-26 18:11:09",
+      "due_date": "2026-08-09 18:11:09",
+      "return_date": "2026-07-26 18:11:09",
+      "status": "RETURNED"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "book_id": 1,
+      "issue_date": "2026-07-26 18:12:12",
+      "due_date": "2026-08-09 18:12:12",
+      "return_date": "2026-07-26 18:12:12",
+      "status": "RETURNED"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "book_id": 1,
+      "issue_date": "2026-07-26 18:12:33",
+      "due_date": "2026-08-09 18:12:33",
+      "return_date": "2026-07-26 18:12:33",
+      "status": "RETURNED"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "book_id": 1,
+      "issue_date": "2026-07-26 18:24:58",
+      "due_date": "2026-08-09 18:24:58",
+      "return_date": "2026-07-26 18:24:58",
+      "status": "RETURNED"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "book_id": 1,
+      "issue_date": "2026-07-26 18:29:44",
+      "due_date": "2026-08-09 18:29:44",
+      "return_date": "2026-07-26 18:29:44",
+      "status": "RETURNED"
+    }
+  ],
+  "fines": []
+}

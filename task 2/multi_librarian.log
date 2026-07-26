@@ -1,0 +1,76 @@
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'librarian_alice' [Role: LIBRARIAN, ID: 1]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'librarian_bob' [Role: LIBRARIAN, ID: 2]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'librarian_charlie' [Role: LIBRARIAN, ID: 3]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'student_dave' [Role: MEMBER, ID: 4]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'student_emma' [Role: MEMBER, ID: 5]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'student_frank' [Role: MEMBER, ID: 6]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'student_grace' [Role: MEMBER, ID: 7]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Registered User/Librarian: 'student_henry' [Role: MEMBER, ID: 8]
+[2026-07-26 18:25:18] [MainThread] [INFO] - Book Added by Librarian #1: 'Clean Architecture' (Copies: 2)
+[2026-07-26 18:25:18] [MainThread] [INFO] - Book Added by Librarian #2: 'Learning Python' (Copies: 5)
+[2026-07-26 18:25:18] [LibrarianThread-2] [INFO] - SUCCESS: Librarian #2 issued Borrow #1 (User: 5, Book: 1)
+[2026-07-26 18:25:18] [LibrarianThread-5] [INFO] - SUCCESS: Librarian #2 issued Borrow #2 (User: 8, Book: 1)
+[2026-07-26 18:25:18] [MainThread] [INFO] - SUCCESS: Librarian #1 issued Borrow #3 (User: 4, Book: 2)
+[2026-07-26 18:25:18] [MainThread] [INFO] - SUCCESS: Librarian #2 issued Borrow #4 (User: 5, Book: 2)
+[2026-07-26 18:25:18] [ThreadPoolExecutor-0_1] [INFO] - SUCCESS: Librarian #1 returned Borrow #3 (Fine: $0.00)
+[2026-07-26 18:25:18] [ThreadPoolExecutor-0_4] [INFO] - SUCCESS: Librarian #1 returned Borrow #4 (Fine: $0.00)
+[2026-07-26 18:25:18] [ThreadPoolExecutor-0_3] [INFO] - SUCCESS: Librarian #3 issued Borrow #5 (User: 6, Book: 2)
+[2026-07-26 18:25:18] [ThreadPoolExecutor-0_0] [INFO] - SUCCESS: Librarian #3 issued Borrow #6 (User: 6, Book: 2)
+[2026-07-26 18:25:18] [ThreadPoolExecutor-0_2] [INFO] - SUCCESS: Librarian #3 issued Borrow #7 (User: 6, Book: 2)
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'librarian_alice' [Role: LIBRARIAN, ID: 1]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'librarian_bob' [Role: LIBRARIAN, ID: 2]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'librarian_charlie' [Role: LIBRARIAN, ID: 3]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'student_dave' [Role: MEMBER, ID: 4]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'student_emma' [Role: MEMBER, ID: 5]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'student_frank' [Role: MEMBER, ID: 6]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'student_grace' [Role: MEMBER, ID: 7]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Registered User/Librarian: 'student_henry' [Role: MEMBER, ID: 8]
+[2026-07-26 18:25:30] [MainThread] [INFO] - Book Added by Librarian #1: 'Clean Architecture' (Copies: 2)
+[2026-07-26 18:25:30] [MainThread] [INFO] - Book Added by Librarian #2: 'Learning Python' (Copies: 5)
+[2026-07-26 18:25:30] [LibrarianThread-2] [INFO] - SUCCESS: Librarian #2 issued Borrow #1 (User: 5, Book: 1)
+[2026-07-26 18:25:30] [LibrarianThread-4] [INFO] - SUCCESS: Librarian #1 issued Borrow #2 (User: 7, Book: 1)
+[2026-07-26 18:25:30] [MainThread] [INFO] - SUCCESS: Librarian #1 issued Borrow #3 (User: 4, Book: 2)
+[2026-07-26 18:25:30] [MainThread] [INFO] - SUCCESS: Librarian #2 issued Borrow #4 (User: 5, Book: 2)
+[2026-07-26 18:25:30] [ThreadPoolExecutor-0_1] [INFO] - SUCCESS: Librarian #1 returned Borrow #3 (Fine: $0.00)
+[2026-07-26 18:25:30] [ThreadPoolExecutor-0_0] [INFO] - SUCCESS: Librarian #3 issued Borrow #5 (User: 6, Book: 2)
+[2026-07-26 18:25:30] [ThreadPoolExecutor-0_4] [INFO] - SUCCESS: Librarian #1 returned Borrow #4 (Fine: $0.00)
+[2026-07-26 18:25:30] [ThreadPoolExecutor-0_3] [INFO] - SUCCESS: Librarian #3 issued Borrow #6 (User: 6, Book: 2)
+[2026-07-26 18:25:30] [ThreadPoolExecutor-0_4] [INFO] - SUCCESS: Librarian #3 issued Borrow #7 (User: 6, Book: 2)
+[2026-07-26 18:26:19] [MainThread] [INFO] - Registered User/Librarian: 'librarian_alice' [Role: LIBRARIAN, ID: 1]
+[2026-07-26 18:26:19] [MainThread] [INFO] - Registered User/Librarian: 'librarian_bob' [Role: LIBRARIAN, ID: 2]
+[2026-07-26 18:26:19] [MainThread] [INFO] - Registered User/Librarian: 'librarian_charlie' [Role: LIBRARIAN, ID: 3]
+[2026-07-26 18:26:19] [MainThread] [INFO] - Registered User/Librarian: 'student_dave' [Role: MEMBER, ID: 4]
+[2026-07-26 18:26:20] [MainThread] [INFO] - Registered User/Librarian: 'student_emma' [Role: MEMBER, ID: 5]
+[2026-07-26 18:26:20] [MainThread] [INFO] - Registered User/Librarian: 'student_frank' [Role: MEMBER, ID: 6]
+[2026-07-26 18:26:20] [MainThread] [INFO] - Registered User/Librarian: 'student_grace' [Role: MEMBER, ID: 7]
+[2026-07-26 18:26:20] [MainThread] [INFO] - Registered User/Librarian: 'student_henry' [Role: MEMBER, ID: 8]
+[2026-07-26 18:26:20] [MainThread] [INFO] - Book Added by Librarian #1: 'Clean Architecture' (Copies: 2)
+[2026-07-26 18:26:20] [MainThread] [INFO] - Book Added by Librarian #2: 'Learning Python' (Copies: 5)
+[2026-07-26 18:26:20] [LibrarianThread-1] [INFO] - SUCCESS: Librarian #1 issued Borrow #1 (User: 4, Book: 1)
+[2026-07-26 18:26:20] [LibrarianThread-4] [INFO] - SUCCESS: Librarian #1 issued Borrow #2 (User: 7, Book: 1)
+[2026-07-26 18:26:20] [MainThread] [INFO] - SUCCESS: Librarian #1 issued Borrow #3 (User: 4, Book: 2)
+[2026-07-26 18:26:20] [MainThread] [INFO] - SUCCESS: Librarian #2 issued Borrow #4 (User: 5, Book: 2)
+[2026-07-26 18:26:20] [ThreadPoolExecutor-0_3] [INFO] - SUCCESS: Librarian #3 issued Borrow #5 (User: 6, Book: 2)
+[2026-07-26 18:26:20] [ThreadPoolExecutor-0_1] [INFO] - SUCCESS: Librarian #1 returned Borrow #3 (Fine: $0.00)
+[2026-07-26 18:26:20] [ThreadPoolExecutor-0_4] [INFO] - SUCCESS: Librarian #1 returned Borrow #4 (Fine: $0.00)
+[2026-07-26 18:26:20] [ThreadPoolExecutor-0_0] [INFO] - SUCCESS: Librarian #3 issued Borrow #6 (User: 6, Book: 2)
+[2026-07-26 18:26:20] [ThreadPoolExecutor-0_2] [INFO] - SUCCESS: Librarian #3 issued Borrow #7 (User: 6, Book: 2)
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'librarian_alice' [Role: LIBRARIAN, ID: 1]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'librarian_bob' [Role: LIBRARIAN, ID: 2]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'librarian_charlie' [Role: LIBRARIAN, ID: 3]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'student_dave' [Role: MEMBER, ID: 4]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'student_emma' [Role: MEMBER, ID: 5]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'student_frank' [Role: MEMBER, ID: 6]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'student_grace' [Role: MEMBER, ID: 7]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Registered User/Librarian: 'student_henry' [Role: MEMBER, ID: 8]
+[2026-07-26 18:26:25] [MainThread] [INFO] - Book Added by Librarian #1: 'Clean Architecture' (Copies: 2)
+[2026-07-26 18:26:25] [MainThread] [INFO] - Book Added by Librarian #2: 'Learning Python' (Copies: 5)
+[2026-07-26 18:26:25] [LibrarianThread-2] [INFO] - SUCCESS: Librarian #2 issued Borrow #1 (User: 5, Book: 1)
+[2026-07-26 18:26:25] [LibrarianThread-1] [INFO] - SUCCESS: Librarian #1 issued Borrow #2 (User: 4, Book: 1)
+[2026-07-26 18:26:25] [MainThread] [INFO] - SUCCESS: Librarian #1 issued Borrow #3 (User: 4, Book: 2)
+[2026-07-26 18:26:25] [MainThread] [INFO] - SUCCESS: Librarian #2 issued Borrow #4 (User: 5, Book: 2)
+[2026-07-26 18:26:25] [ThreadPoolExecutor-0_3] [INFO] - SUCCESS: Librarian #3 issued Borrow #5 (User: 6, Book: 2)
+[2026-07-26 18:26:25] [ThreadPoolExecutor-0_4] [INFO] - SUCCESS: Librarian #1 returned Borrow #4 (Fine: $0.00)
+[2026-07-26 18:26:25] [ThreadPoolExecutor-0_1] [INFO] - SUCCESS: Librarian #1 returned Borrow #3 (Fine: $0.00)
+[2026-07-26 18:26:25] [ThreadPoolExecutor-0_0] [INFO] - SUCCESS: Librarian #3 issued Borrow #6 (User: 6, Book: 2)
+[2026-07-26 18:26:25] [ThreadPoolExecutor-0_3] [INFO] - SUCCESS: Librarian #3 issued Borrow #7 (User: 6, Book: 2)
