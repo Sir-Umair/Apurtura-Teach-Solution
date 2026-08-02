@@ -1,0 +1,5 @@
+emp_id,name,department,total_days_present,total_hours,regular_hours,overtime_hours,hourly_rate,regular_pay,overtime_pay,gross_pay,tax_deduction,net_pay
+ADM001,System Administrator,HR & Management,0,0.0,0.0,0.0,50.0,0.0,0.0,0.0,0.0,0.0
+EMP101,John Doe,Software Engineering,2,9.01,8.01,1.0,35.0,280.35,52.5,332.85,39.94,292.91
+EMP102,Jane Smith,Quality Assurance,1,9.0,8.0,1.0,30.0,240.0,45.0,285.0,28.5,256.5
+EMP200,Ali Khan,Cyber Security,3,28.0,24.0,4.0,40.0,960.0,240.0,1200.0,144.0,1056.0

@@ -1,0 +1,70 @@
+{
+    "users": {
+        "admin": {
+            "emp_id": "ADM001",
+            "username": "admin",
+            "password_hash": "b0eec223d89a1d5a6a6c61b9f65023c512e176bdeeb98fbd9004b3dc5dbe9572",
+            "name": "System Administrator",
+            "role": "admin",
+            "department": "HR & Management",
+            "hourly_rate": 50.0,
+            "tax_rate": 0.15
+        },
+        "EMP101": {
+            "emp_id": "EMP101",
+            "username": "john_doe",
+            "password_hash": "a6813c753ff241601bc59a07ca060faf531847bd5e5cb110e5a0d2b369f26d99",
+            "name": "John Doe",
+            "role": "employee",
+            "department": "Software Engineering",
+            "hourly_rate": 35.0,
+            "tax_rate": 0.12
+        },
+        "EMP102": {
+            "emp_id": "EMP102",
+            "username": "jane_smith",
+            "password_hash": "a6813c753ff241601bc59a07ca060faf531847bd5e5cb110e5a0d2b369f26d99",
+            "name": "Jane Smith",
+            "role": "employee",
+            "department": "Quality Assurance",
+            "hourly_rate": 30.0,
+            "tax_rate": 0.1
+        },
+        "um101": {
+            "emp_id": "um101",
+            "username": "umair",
+            "password_hash": "c124a786710280b1c120308e356968ce1d4b98df64f29901516f0e214859f8b1",
+            "name": "mumair",
+            "role": "admin",
+            "department": "vc",
+            "hourly_rate": 6.0,
+            "tax_rate": 0.15
+        }
+    },
+    "attendance": [
+        {
+            "emp_id": "EMP101",
+            "date": "2026-08-01",
+            "clock_in": "09:00:00",
+            "clock_out": "18:00:00",
+            "hours_worked": 9.0,
+            "status": "Present"
+        },
+        {
+            "emp_id": "EMP102",
+            "date": "2026-08-01",
+            "clock_in": "08:30:00",
+            "clock_out": "17:30:00",
+            "hours_worked": 9.0,
+            "status": "Present"
+        },
+        {
+            "emp_id": "um101",
+            "date": "2026-08-02",
+            "clock_in": "21:22:32",
+            "clock_out": null,
+            "hours_worked": 0.0,
+            "status": "In Progress"
+        }
+    ]
+}
